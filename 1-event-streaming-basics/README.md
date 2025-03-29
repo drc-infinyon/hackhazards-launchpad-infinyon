@@ -2,7 +2,7 @@
 Get a basic sense of event streaming with Fluvio.
 
 ## Session Overview
-This 3-hour session introduces you to event streaming concepts and Fluvio basics. You'll learn about:
+You'll learn about:
 - Event streaming fundamentals
 - Fluvio architecture and features
 - Setting up a local Fluvio cluster
@@ -14,11 +14,7 @@ This 3-hour session introduces you to event streaming concepts and Fluvio basics
 - Familiarity with Python (helpful but not required)
 - A computer with internet access
 
-## Initial Survey
-Before starting, please complete this quick survey to help us tailor the session to your needs:
-[Survey Link]
-
-## Session Content
+## Session Outline
 
 ### 1. Introduction to Event Streaming (20 minutes)
 - What is event streaming?
