@@ -31,12 +31,8 @@ Before starting, please complete this quick survey to help us tailor the session
 - Multi-language support
 
 ### 3. Setting up Fluvio (30 minutes)
-```bash
-# Install Fluvio Version Manager (fvm)
-curl -fsS https://hub.infinyon.cloud/install/install.sh | bash
 
 # Install Fluvio and start local cluster
-fvm install latest
 fluvio cluster start
 
 # Verify cluster status
