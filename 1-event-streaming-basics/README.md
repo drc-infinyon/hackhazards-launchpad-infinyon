@@ -12,7 +12,7 @@ You'll learn about:
 ## Prerequisites
 - Basic understanding of command-line interfaces
 - Familiarity with Python (helpful but not required)
-- A computer with internet access
+- A computer with internet access with Mac/Linux OS
 
 ## Session Outline
 

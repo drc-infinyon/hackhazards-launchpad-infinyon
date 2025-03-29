@@ -2,16 +2,12 @@
 Learn about Fluvio's connector ecosystem and client libraries.
 
 ## Session Overview
-This 3-hour session focuses on Fluvio's connector ecosystem and client libraries. You'll learn about:
+You'll learn about:
 - Available connectors and their use cases
 - Working with different client libraries (Rust, Python, JavaScript)
 - Building custom connectors
 - Integration with external systems
 
-## Prerequisites
-- Completion of Event Streaming Basics session
-- Basic understanding of programming concepts
-- Familiarity with at least one programming language (Rust, Python, or JavaScript)
 
 ## Session Content
 

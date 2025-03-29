@@ -2,18 +2,12 @@
 Master stream processing with Fluvio's Stateful Data Flows.
 
 ## Session Overview
-This 3-hour session dives deep into stream processing with Fluvio's Stateful Data Flows. You'll learn about:
+You'll learn about:
 - Stream processing concepts
 - Stateful vs. stateless processing
 - Building data processing pipelines
 - Advanced dataflow patterns
 - Real-world use cases and examples
-
-## Prerequisites
-- Completion of Event Streaming Basics session
-- Basic understanding of YAML configuration
-- Familiarity with programming concepts
-- Fluvio CLI and cluster setup (from Session 1)
 
 ## Session Content
 
