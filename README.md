@@ -63,31 +63,23 @@ fluvio cluster status
 - Building data processing pipelines
 - [View Module](3-stateful-data-flows/README.md)
 
-## Quick Start Example
+## Example Dataflows
+Try these examples from the [Stateful Dataflow Examples](https://github.com/infinyon/stateful-dataflows-examples) repository:
 
-### 1. Create a Topic
-```bash
-fluvio topic create my-topic
-```
+### 1. Basic Example: Word Count
+A simple example demonstrating basic stream processing with word counting.
+- Location: `dataflows/word-count`
+- Key concepts: Map transformation, stateful aggregation
 
-### 2. Produce Messages
-```bash
-# Using CLI
-echo 'Hello, Fluvio!' | fluvio produce my-topic
+### 2. Visual Example: New York Transit Data
+Process and visualize real-time transit data with interactive charts.
+- Location: `dataflows/ny-transit`
+- Key concepts: Data transformation, visualization integration
 
-# Using Python
-python3 -c '
-from fluvio import Fluvio
-fluvio = Fluvio.connect()
-producer = fluvio.topic_producer("my-topic")
-producer.send_string("Hello from Python!")
-'
-```
-
-### 3. Consume Messages
-```bash
-fluvio consume my-topic --start 0
-```
+### 3. AI Integration: OpenAI Callout
+Integrate with OpenAI API for real-time text processing.
+- Location: `dataflows/openai-callout`
+- Key concepts: External API integration, stateful processing
 
 ## Resources
 - [Fluvio Documentation](https://www.fluvio.io/docs/)
